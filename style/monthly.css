@@ -1,0 +1,52 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Overall page styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+}
+
+.order-link{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.order-link a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+  transition: background-color 0.3s;
+}
+
+.order-link a:hover {
+  background-color: blue;
+}
+
+.logout-link {
+  padding: 5px  10px;
+  border-radius: 10%;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
